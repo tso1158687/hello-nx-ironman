@@ -86,7 +86,10 @@
               "apps/hello-angular/src/favicon.ico",
               "apps/hello-angular/src/assets"
             ],
-            "styles": ["apps/hello-angular/src/styles.scss"],
+            "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "apps/hello-angular/src/styles.scss"
+            ],
             "scripts": []
           },
           "configurations": {

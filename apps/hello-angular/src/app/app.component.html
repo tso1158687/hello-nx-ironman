@@ -1,9 +1,16 @@
-<div style="text-align: center">
-  <h1>Welcome to hello-angular!</h1>
-  <img
-    width="450"
-    src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png"
-    alt="Nx - Smart, Extensible Build Framework"
-  />
-</div>
-<div>Message: {{ hello$ | async | json }}</div>
+<nb-layout>
+  <nb-layout-header fixed> hello-angular </nb-layout-header>
+
+  <nb-layout-column>
+    <!-- 加入 bootstarp 樣式 -->
+    <div class="container">
+      <div class="row">
+        <div class="col">1</div>
+        <div class="col">2</div>
+        <div class="col">3</div>
+      </div>
+    </div>
+  </nb-layout-column>
+
+  <nb-layout-footer fixed> </nb-layout-footer>
+</nb-layout>
