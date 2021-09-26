@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "hello-ironman-2021": {
+      "hosting": {
+        "hello-angular": [
+          "hello-ironman-2021"
+        ]
+      }
+    }
+  }
+}
