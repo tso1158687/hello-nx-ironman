@@ -12,7 +12,13 @@
             height="100%"
           ></ng-lottie>
         </div>
-        <div class="col">區塊 2/3</div>
+        <div class="col">
+          <ul>
+            <li class="text" *ngFor="let item of items | async">
+              {{ item.name }}
+            </li>
+          </ul>
+        </div>
         <div class="col">區塊 3/3</div>
       </div>
     </div>
